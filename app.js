@@ -99,7 +99,9 @@ class pokemoncard {
 const btn = document.querySelector ("#btn")
 btn.addEventListener ('click', () => {
     Swal.fire({
-        icon:  '<img src="img/pokeball.png" alt="pokeball">',
+        imageUrl:  '<img src="img/pokeball.png" alt="pokeball">',
+        imageWidth:'100 px' ,
+        imageHeight:'100 px',
         title: pokemoncard.nombre,
         text: pokemoncard.tipo,
         footer: pokemoncard.npoke
